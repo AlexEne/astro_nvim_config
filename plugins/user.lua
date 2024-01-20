@@ -9,4 +9,13 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+
+  {
+      "kdheepak/lazygit.nvim",
+      -- optional for floating window border decoration
+      lazy = false,
+      dependencies = {
+          "nvim-lua/plenary.nvim",
+      },
+  },
 }

@@ -31,10 +31,14 @@ return {
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
-    -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    -- ["<C-z>"] = { ":u<cr>" },
+    -- ["<leader>gg"] = {":LazyGit<CR>", desc="LazyGit"}
   },
   t = {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
+    ["<C-s>"] = { ":w!<cr>", desc = "Save File" },
+    ["<C-z>"] = { ":u!<cr>" }
   },
 }
