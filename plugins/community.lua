@@ -5,5 +5,19 @@ return {
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
   { import = "astrocommunity.colorscheme.catppuccin" },
+  {
+    "catppuccin",
+    opts = {
+      integrations = {
+        rainbow_delimiters = true,
+        noice = true,
+        lsp_trouble = true,
+      },
+    },
+  },
+
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
 }
