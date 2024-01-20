@@ -18,6 +18,7 @@ return {
 
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
 }

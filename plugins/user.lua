@@ -11,11 +11,15 @@ return {
   -- },
 
   {
-      "kdheepak/lazygit.nvim",
-      -- optional for floating window border decoration
-      lazy = false,
-      dependencies = {
-          "nvim-lua/plenary.nvim",
-      },
+    "kdheepak/lazygit.nvim",
+    -- optional for floating window border decoration
+    lazy = false,
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+    },
   },
+
+  { "mfussenegger/nvim-dap", enabled = true },
+
+  { "themaxmarchuk/tailwindcss-colors.nvim", enabled = true, lazy = false },
 }
