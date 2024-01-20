@@ -20,6 +20,18 @@ return {
       return opts
     end,
   },
+
+  -- {
+  --   "nvim-telescope/telescope.nvim",
+  --   enabled = true,
+  --   config = function(plugin, opts)
+  --     require "plugins.configs.telescope"(plugin, opts)
+  --     local telescope = require "telescope"
+  --     telescope.file_ignore_patterns = {".git", "node_modules"}
+  --     error(telescope)
+  --   end,
+  -- },
+
   -- You can disable default plugins as follows:
   -- { "max397574/better-escape.nvim", enabled = false },
   --

@@ -83,5 +83,7 @@ return {
     --     ["~/%.config/foo/.*"] = "fooscript",
     --   },
     -- }
+
+    require("telescope").file_ignore_patterns = {"^./.git/", "^node_modules/"}
   end,
 }
