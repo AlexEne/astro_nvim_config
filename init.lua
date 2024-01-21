@@ -89,5 +89,6 @@ return {
     -- }
 
     require("telescope").file_ignore_patterns = { "^./.git/", "^node_modules/" }
+    vim.api.nvim_command ":runtime mswin.vim"
   end,
 }
